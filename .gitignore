@@ -1,0 +1,22 @@
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated data and indexes (rebuild them from scripts)
+chroma_db/
+logs/
+*.sqlite
+*.db
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

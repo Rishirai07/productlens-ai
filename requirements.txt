@@ -1,0 +1,12 @@
+chromadb
+streamlit
+pandas
+python-dotenv
+pypdf
+google-play-scraper
+pytest
+
+# Uncomment the ONE provider you chose, then run: pip install -r requirements.txt
+# google-genai
+# openai
+# anthropic
